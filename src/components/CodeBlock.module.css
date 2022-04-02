@@ -1,0 +1,50 @@
+.container {
+  width: 800px;
+  padding: 10px;
+}
+
+.textarea {
+  margin: 10px;
+  padding: 20px 10px 10px;
+  border: 0;
+  width: calc(100% - 32px);
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14pt;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  line-height: 1.5;
+  z-index: 1;
+  color: transparent;
+  background: transparent;
+  caret-color: white;
+  outline: none;
+  overflow: auto;
+  white-space: nowrap;
+  resize: none;
+  tab-size: 2;
+}
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.pre {
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+  width: calc(100% - 32px);
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 14pt !important;
+  z-index: 0;
+  overflow: auto !important;
+  white-space: nowrap !important;
+  tab-size: 2 !important;
+}
+
+.code {
+  tab-size: 2 !important;
+}
